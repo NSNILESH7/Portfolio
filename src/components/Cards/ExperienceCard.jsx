@@ -176,7 +176,7 @@ const ExperienceCard = ({ experience }) => {
             </Description>
             {experience.doc &&
                 <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
+                    <Document src={experience.doc} alt="certificate" />
                 </a>
             }
         </Card>

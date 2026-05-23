@@ -13,7 +13,6 @@ import ProjectDetails from "./components/ProjectDetails";
 import Footer from "./components/Footer";
 import HeroSection from "./components/Herosection";
 import Contact from "./components/Contact";
-
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;

@@ -4,6 +4,7 @@ import HeroBgAnimation from "../HeroBgAnimation";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/nilesh.jpeg";
+import ProfileCard from "../ProfileCard/ProfileCard";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -236,7 +237,8 @@ export default function Hero() {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={HeroImg} alt="hero-image" />
+          <ProfileCard />
+            {/* <Img src={HeroImg} alt="hero-image" /> */}
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
